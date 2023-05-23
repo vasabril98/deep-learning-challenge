@@ -30,13 +30,13 @@ The dataset received is a CSV containing over 34,000 organizations that have rec
 ### Compiling, Training, and Evaluating the Model
 
 * The Optimized Neural Network Model was defined as follows:
-   <img width="904" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/d8743542-10e7-4f9c-873f-59e32ba9916b">
+   * <img width="904" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/d8743542-10e7-4f9c-873f-59e32ba9916b">
    * Since a binary classifier needed to be built,  the sigmoid activation function was used for the output layer. Sigmoid reduces the output to a value from 0.0 to 1.0, representing a probability.
    * Since the model achieved the target performance during the first epoch and to reduce the training time per epoch, fewer neurons were used
-   <img width="669" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/1837a460-7682-49a4-a18d-0d4ecb6cabb8">
+   * <img width="669" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/1837a460-7682-49a4-a18d-0d4ecb6cabb8">
    * The binary_crossentropy loss function was used since it is purpose-built for binary classifiers. A metric to ‘accuracy’ so accuracies computed by the loss function are captured in the history object returned by fit.
    * The model only trained for ten epochs since the model achieved the target performance during the first epoch and showed little to no improvement in accuracy after the three epochs.
-   <img width="805" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/564d7be8-c268-4b18-800d-21925bbebd19">
+   * <img width="805" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/564d7be8-c268-4b18-800d-21925bbebd19">
 
    * One significant change that was added to increase the model performance was adding the ```NAME``` feature back as an input during the model optimization. Due to this change, a significant improvement in the model performance was noticed.
 
