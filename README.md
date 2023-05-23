@@ -16,7 +16,7 @@ The dataset received is a CSV containing more than 34,000 organizations that hav
     * ```APPLICATION_TYPE```
     * ```AFFILIATION```
     * ```CLASSIFICATION```
-    *```USE_CASE```
+    * ```USE_CASE```
     * ```ORGANIZATION```
     * ```INCOME_AMT```
     * ```ASK_AMT```
