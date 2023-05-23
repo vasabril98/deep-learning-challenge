@@ -10,13 +10,23 @@ The dataset received is a CSV containing more than 34,000 organizations that hav
 
 ## Results: Using bulleted lists and images to support your answers, address the following questions:
 
-* Data Preprocessing
+### Data Preprocessing
 
-    * After running the model with different combination of features, the features that hold majority of the signal required for the model to achieve the target model performance are:
-    * <img width="209" alt="image" src="https://github.com/vasabril98/deep-learning-challenge/assets/120423945/b4aaffe2-cb93-4c1b-bdca-b9a7af8169c9">
-    * For the purporse of this project the target variable that is being predicted is  ``` IS_SUCCESSFUL```
-    * After running the model with different combination of features, the features that hold little to no significance for the model to perform well are ```EIN ```, ```STATUS```, ```SPECIAL_CONSIDERATIONS```
-* Compiling, Training, and Evaluating the Model
+* After running the model with different combination of features, the features that hold majority of the signal required for the model to achieve the target model performance are:
+    * ```APPLICATION_TYPE```
+    * ```AFFILIATION```
+    * ```CLASSIFICATION```
+    *```USE_CASE```
+    * ```ORGANIZATION```
+    * ```INCOME_AMT```
+    * ```ASK_AMT```
+* On the other hand, the feature that hold little to no significance for the model to performace are:
+    * ```EIN ```
+    * ```STATUS```
+    * ```SPECIAL_CONSIDERATIONS```  
+* For the purporse of this project the target variable that is being predicted is  ``` IS_SUCCESSFUL```
+
+### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
